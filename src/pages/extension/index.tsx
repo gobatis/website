@@ -23,7 +23,7 @@ export default function Community(): JSX.Element {
 
 function Contract(): JSX.Element {
     return <div className={styles.contract}>
-        <h2>Knowledge Planet:</h2>
+        <h3>Goland Plugin</h3>
         <img src={'/img/metrics/demo.png'}/>
     </div>
 }
