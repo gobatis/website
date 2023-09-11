@@ -1,0 +1,15 @@
+version: 1.0
+servers:
+  cd:
+    host: 47.108.64.171
+    user: root
+tasks:
+  deploy:
+    steps:
+      - run: yarn build
+      - deploy:
+          servers:
+            - use: cd
+          mappers:                             
+            - source: ./build
+              target: /app/gobatis/docs

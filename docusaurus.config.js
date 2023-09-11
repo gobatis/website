@@ -120,7 +120,7 @@ const config = {
                         label: 'Documentation',
                     },
                     {to: '/metrics/index', label: 'Metrics', position: 'left'},
-                    {to: '/community/support', label: 'Community', position: 'left'},
+                    {to: '/', label: 'Community', position: 'left'},
                     {to: '/extension', label: 'Extension', position: 'left'},
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
@@ -138,7 +138,7 @@ const config = {
                         items: [
                             {
                                 label: 'Tutorial',
-                                to: '/docs/intro',
+                                to: '/',
                             },
                         ],
                     },
@@ -173,7 +173,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} gobatis.com. ICP证: <a style="color: #fff;" href="https://beian.miit.gov.cn/" target="_blank">黔ICP备2023011094号</a>`,
             },
             prism: {
                 theme: lightCodeTheme,
