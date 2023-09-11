@@ -60,6 +60,12 @@ const config = {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
             }),
+            {
+                googleAnalytics: {
+                    trackingID: 'GTM-KR6VVJHH',
+                    anonymizeIP: true,
+                },
+            },
         ],
     ],
 
