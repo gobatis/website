@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Gobatis',
+    title: 'Gobatis【developing】',
     tagline: 'Make system building simple and efficient',
     favicon: 'img/favicon.ico',
 
