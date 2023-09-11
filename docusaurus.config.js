@@ -132,7 +132,7 @@ const config = {
                     {to: '/extension', label: 'Extension', position: 'left'},
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/gobatis/gobatis',
                         label: 'GitHub',
                         position: 'right',
                     },
