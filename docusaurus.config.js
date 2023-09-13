@@ -130,6 +130,18 @@ const config = {
                     {to: '/metrics/index', label: 'Metrics', position: 'left'},
                     {to: '/', label: 'Community', position: 'left'},
                     {to: '/extension', label: 'Extension', position: 'left'},
+                    {
+                        label: 'Test', position: 'left', items: [
+                            {
+                                label: 'Report',
+                                to: '/report', // 这应该是你的页面或文档的路径
+                            },
+                            {
+                                label: 'Coverage',
+                                to: '/coverage',
+                            },
+                        ],
+                    },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
                         href: 'https://github.com/gobatis/gobatis',
