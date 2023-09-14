@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# DB Chain
+# DB
 
 ## Clone
 
