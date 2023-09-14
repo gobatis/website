@@ -8,7 +8,7 @@
     "description": "The label for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "message": "5 分钟上手 Gobatis 的使用",
     "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Querying": {
@@ -20,7 +20,7 @@
     "description": "The generated-index page description for category Querying in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.XML Usage": {
-    "message": "XML Usage",
+    "message": "XML 用法",
     "description": "The label for category XML Usage in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.XML Usage.link.generated-index.description": {

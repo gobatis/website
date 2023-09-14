@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Delete
+# 删除
 
 普通删除:
 
@@ -10,7 +10,13 @@ sidebar_position: 5
 batis.Delete("users", batis.Where("id = #{id}", batis.Param("id",1)))
 ```
 
-约束影响行数:
+限制删除 1 条记录:
 ```go
 batis.Affect(1).Delete("users", batis.Where("id = #{id}", batis.Param("id",1)))
+```
+
+限制删除至少 1 条记录:
+
+```go
+batis.Affect("1+").Delete("users", batis.Where("id = #{id}", batis.Param("id",1)))
 ```

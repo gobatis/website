@@ -1,15 +1,26 @@
 ---
 sidebar_position: 6
+title: 查询
 ---
 
-# Query
+## 查询单条记录
 
 ```go
-var user *User
+var product *Product
+db.Query(`select * from products where id = #{id}`,batis.Param("id",1))).Scan(&user)
+```
 
-err = batis.Query(`select * from users where id = #{id}`,batis.Param("id",1))).Scan(&user).Error
 
-var users []*User
+## 查询多条记录
 
-err = batis.Query(`select * from users`).Scan(&users).Error
+```go
+var products []*Products
+db.Query(`select * from products`).Scan(&products
+```
+
+## 计数查询
+
+```go
+var count int64
+db.Query(`select count(1) from products`).Scan(&count)
 ```

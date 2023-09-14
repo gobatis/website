@@ -133,7 +133,7 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Documentation',
+                        label: 'Documentation'
                     },
                     {to: '/metrics/index', label: 'Metrics', position: 'left'},
                     {to: '/extension', label: 'Extension', position: 'left'},
@@ -152,12 +152,12 @@ const config = {
                     },
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        href: 'https://github.com/gobatis/gobatis',
-                        label: 'GitHub',
+                        type: 'localeDropdown',
                         position: 'right',
                     },
                     {
-                        type: 'localeDropdown',
+                        href: 'https://github.com/gobatis/gobatis',
+                        label: 'GitHub',
                         position: 'right',
                     },
                 ],

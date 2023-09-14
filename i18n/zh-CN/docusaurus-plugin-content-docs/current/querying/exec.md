@@ -2,8 +2,9 @@
 sidebar_position: 7
 ---
 
-# Exec
+# 执行
 
 ```go
-batis.Exec(`update users set age = #{user.Age} where id = #{user.Id}`, batis.Param("user",user))
+batis.Exec(`update users set price = #{product.Price} where id = #{product.Id}`, 
+    batis.Param("product", product))
 ```
