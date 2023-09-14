@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "上手使用",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Querying": {
+    "message": "查询",
+    "description": "The label for category Querying in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Querying.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Querying in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.XML Usage": {
+    "message": "XML Usage",
+    "description": "The label for category XML Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.XML Usage.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category XML Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "教程",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tutorials in sidebar tutorialSidebar"
+  }
+}

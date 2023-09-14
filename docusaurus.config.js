@@ -29,7 +29,15 @@ const config = {
     // to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
-        locales: ['en'],
+        locales: ['en', 'zh-CN'],
+        localeConfigs: {
+            en: {
+                label: 'English',
+            },
+            'zh-CN': {
+                label: '中文',
+            },
+        },
     },
 
     scripts: [
@@ -146,6 +154,10 @@ const config = {
                     {
                         href: 'https://github.com/gobatis/gobatis',
                         label: 'GitHub',
+                        position: 'right',
+                    },
+                    {
+                        type: 'localeDropdown',
                         position: 'right',
                     },
                 ],

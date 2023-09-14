@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Gobatis",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Gobatis Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "文档",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Metrics": {
+    "message": "指标",
+    "description": "Navbar item with label Metrics"
+  },
+  "item.label.Extension": {
+    "message": "拓展",
+    "description": "Navbar item with label Extension"
+  },
+  "item.label.Community": {
+    "message": "社区",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Test": {
+    "message": "测试",
+    "description": "Navbar item with label Test"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Report": {
+    "message": "报告",
+    "description": "Navbar item with label Report"
+  },
+  "item.label.Coverage": {
+    "message": "覆盖率",
+    "description": "Navbar item with label Coverage"
+  }
+}
