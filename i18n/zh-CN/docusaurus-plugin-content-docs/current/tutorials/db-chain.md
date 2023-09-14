@@ -14,16 +14,22 @@ fmt.Printf("%p", db.Debug())  // #2
 fmt.Printf("%p", db.Must())   // #3
 ```
 
-## Must Mode
+## 影响行约束
 
 will check the RowsAffected > 0  or Scan rows > 0
 
 ```go
-db.Must()
+db.Affect()
 ```
 
-## Debug Mode
+## 调试模式
 
 ```go
 db.Debug()
+```
+
+## Trace ID
+
+```go
+db.WithTraceId("test")
 ```

@@ -1,11 +1,11 @@
 ---
-sidebar_position: -1
+sidebar_position: 1
 ---
 
 # 事务
 
 
-## Visual call
+## 显示调用
 
 ```go
 tx := db.Begin()
@@ -17,7 +17,8 @@ tx.Rollback()
 ```
 
 
-## Hidden Call
+## 隐式调用
+
 ```go
 tx := db.Begin()
 defer func() {
