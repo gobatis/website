@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: 结果扫描 
+title: 查询结果扫描 
 ---
 
 ## Scan 方法

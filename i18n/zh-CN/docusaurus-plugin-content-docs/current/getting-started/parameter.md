@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# 参数绑定
+# SQL 参数
 
 
 Gobatis 会将 SQL 中的 `#{var}` 和 `${var}` 识别为占位符，并将它们替换为所提供的参数。
