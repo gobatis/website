@@ -33,3 +33,21 @@
 .menu__list-item-collapsible {
     font-weight: bold;
 }
+
+.navbar--fixed-top {
+    padding-left: 15px !important;
+    background-color: RGBA(7, 19, 33, var(--bs-bg-opacity, 1)) !important;
+}
+
+.navbar__brand {
+    color: #fff;
+}
+
+.navbar__link {
+    color: #fff;
+}
+
+.brand-name{
+    font-weight: bold !important;
+    font-size: 45px;
+}

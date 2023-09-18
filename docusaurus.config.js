@@ -65,7 +65,10 @@ const config = {
                         'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: [
+                        require.resolve('./src/css/custom.css'),
+                        require.resolve('./src/css/style.css'),
+                    ],
                 },
                 googleAnalytics: {
                     trackingID: 'GTM-KR6VVJHH',
@@ -124,10 +127,10 @@ const config = {
             image: 'img/logo.png',
             navbar: {
                 title: 'Gobatis',
-                logo: {
-                    alt: 'Gobatis Logo',
-                    src: 'img/logo.png',
-                },
+                // logo: {
+                //     alt: 'Gobatis Logo',
+                //     src: 'img/logo.png',
+                // },
                 items: [
                     {
                         type: 'docSidebar',
