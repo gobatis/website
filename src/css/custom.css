@@ -47,7 +47,15 @@
     color: #fff;
 }
 
-.brand-name{
+.brand-name {
     font-weight: bold !important;
     font-size: 45px;
+}
+
+/*body {*/
+/*    background-color: RGBA(30, 30, 66, var(--bs-bg-opacity, 1)) !important;*/
+/*}*/
+
+.row > * {
+    max-width: 50% !important;
 }

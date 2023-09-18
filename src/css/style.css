@@ -33721,9 +33721,7 @@ strong {
 }
 
 /*body.is-dark {*/
-body {
-  background-color: RGBA(30, 30, 66, var(--bs-bg-opacity, 1)) !important;
-}
+
 
 .visible-on-dark-mode {
   display: none;

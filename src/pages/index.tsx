@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import "../css/style.css";
+
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -68,7 +70,7 @@ function Content(): ReactElement {
                     <div className="container">
                         <div
                             className="row g-gs align-items-center justify-content-center justify-content-xl-between flex-xl-row-reverse text-center text-xl-start">
-                            <div className="col-xl-6 col-xxl-5 col-lg-7 col-md-10">
+                            <div className="col-xl-4 col-xxl-4 col-lg-4 col-md-6 col-6">
                                 <div className="nk-hero-gfx me-xxl-n7">
                                     <div className="p-1 rounded-3">
                                         {/*<img className="w-100 rounded-3" src="images/gfx/banner/g.jpg" alt=""/>*/}
@@ -83,17 +85,26 @@ function Content(): ReactElement {
                                     <h1 className="title mb-3 mb-lg-4">
                                         Make system building
                                         <br/>
-                                        <span className="text-gradient-primary">simple</span> and <span className="text-gradient-primary">efficient</span>
+                                        <span className="text-gradient-primary">simple</span> and <span
+                                        className="text-gradient-primary">efficient</span>
                                     </h1>
-                                    <p className="lead ">one comprehensively considers engineering implementation ORM library.</p>
+                                    <p className="lead ">one comprehensively considers engineering implementation ORM
+                                        library.</p>
                                     <ul className="btn-list btn-list-inline py-3 gy-3">
-                                        <li><a href="#" className="btn btn-primary btn-lg">
-                                            {/*<em className="icon ni ni-google"></em>*/}
-                                            <span>Get Started</span></a></li>
+                                        <li>
+                                            <Link
+                                                className="btn btn-primary btn-lg"
+                                                to="/docs/getting-started/installation">
+                                                Get Started - 5min ⏱️
+                                            </Link>
+                                            {/*<a href="#" className="btn btn-primary btn-lg">*/}
+                                            {/*/!*<em className="icon ni ni-google"></em>*!/*/}
+                                            {/*<span>Get Started</span></a>*/}
+                                        </li>
                                         {/*<li><a href="#" className="btn btn-light btn-lg"><span>Sign up with email</span>*/}
                                         {/*    <em className="icon ni ni-arrow-long-right"></em></a></li>*/}
                                     </ul>
-                                    <p className="sub-text mt-2"><strong>*100%  </strong> unit test coverage.</p>
+                                    <p className="sub-text mt-2"><strong>*100% </strong> unit test coverage.</p>
                                 </div>
                             </div>
 
@@ -112,9 +123,10 @@ function Content(): ReactElement {
                         <div className="section-head">
                             <div className="row justify-content-center text-center">
                                 <div className="col-lg-9 col-xl-7">
-                                    <h2 className="title">Content generation made easy</h2>
-                                    <p className="lead">Give our AI a few descriptions and we'll automatically create
-                                        blog articles, product descriptions and more for you within just few second.</p>
+                                    <h2 className="title">Features</h2>
+                                    <p className="lead">Continuously refine the API design based on real business
+                                        scenarios, aiming to provide developers with as smooth an experience as
+                                        possible..</p>
                                 </div>
                             </div>
                         </div>
@@ -126,9 +138,8 @@ function Content(): ReactElement {
                                         <div className="card-body p-3 d-flex">
                                             <div className="feature feature-inline align-items-center">
                                                 <div className="feature-text me-auto">
-                                                    <h4 className="title">Trustworthy Research</h4>
-                                                    <p>Simply choose a template from available list to write content for
-                                                        blog posts, landing page, website content etc. </p>
+                                                    <h4 className="title">Simple</h4>
+                                                    <p>Less is more. Provide the most reliable service with the simplest implementation. </p>
                                                 </div>
                                                 <div className="feature-decoration flex-shrink-0 ms-4 me-n3">
                                                     <img src="images/number/1-light.png" alt=""/>
@@ -143,9 +154,8 @@ function Content(): ReactElement {
                                         <div className="card-body p-3 d-flex">
                                             <div className="feature feature-inline align-items-center">
                                                 <div className="feature-text me-auto">
-                                                    <h4 className="title">Time Efficiency</h4>
-                                                    <p>Provide our AI content writer with few sentences on what you want
-                                                        to write, and it will start writing for you. </p>
+                                                    <h4 className="title">Precise</h4>
+                                                    <p>A miss by a hair's breadth is a miss by a mile; data processing must be done with precision. </p>
                                                 </div>
                                                 <div className="feature-decoration flex-shrink-0 ms-4 me-n3">
                                                     <img src="images/number/2-light.png" alt=""/>
@@ -160,9 +170,8 @@ function Content(): ReactElement {
                                         <div className="card-body p-3 d-flex">
                                             <div className="feature feature-inline align-items-center">
                                                 <div className="feature-text me-auto">
-                                                    <h4 className="title">SEO Efficiency</h4>
-                                                    <p>Our powerful AI tools will generate content in few second, then
-                                                        you can export it to wherever you need. </p>
+                                                    <h4 className="title">Efficient</h4>
+                                                    <p>Stay close to real development scenarios and explore the most efficient engineering implementations. </p>
                                                 </div>
                                                 <div className="feature-decoration flex-shrink-0 ms-4 me-n3">
                                                     <img src="images/number/3-light.png" alt=""/>
@@ -180,124 +189,123 @@ function Content(): ReactElement {
 
                 </section>
 
-                <section className="section section-lg section-bottom-0">
-                    <div className="container">
-                        <div className="section-content">
-                            <div className="row justify-content-center text-center g-gs">
-                                <div className="col-xxl-10">
-                                    <ul className="d-flex flex-wrap justify-content-center has-gap gy-3">
-                                        <li className="px-3 px-xl-5">
-                                            <img className="h-2rem visible-on-dark-mode"
-                                                 src="images/brands/72-a-tone-white.png" alt=""/>
-                                                <img className="h-2rem visible-on-light-mode"
-                                                     src="images/brands/72-a.png" alt=""/>
-                                        </li>
-                                        <li className="px-3 px-xl-5">
-                                            <img className="h-2rem visible-on-dark-mode"
-                                                 src="images/brands/72-b-tone-white.png" alt=""/>
-                                                <img className="h-2rem visible-on-light-mode"
-                                                     src="images/brands/72-b.png" alt=""/>
-                                        </li>
-                                        <li className="px-3 px-xl-5">
-                                            <img className="h-2rem visible-on-dark-mode"
-                                                 src="images/brands/72-c-tone-white.png" alt=""/>
-                                                <img className="h-2rem visible-on-light-mode"
-                                                     src="images/brands/72-c.png" alt=""/>
-                                        </li>
-                                        <li className="px-3 px-xl-5">
-                                            <img className="h-2rem visible-on-dark-mode"
-                                                 src="images/brands/72-d-tone-white.png" alt=""/>
-                                                <img className="h-2rem visible-on-light-mode"
-                                                     src="images/brands/72-d.png" alt=""/>
-                                        </li>
-                                        <li className="px-3 px-xl-5">
-                                            <img className="h-2rem visible-on-dark-mode"
-                                                 src="images/brands/72-e-tone-white.png" alt=""/>
-                                                <img className="h-2rem visible-on-light-mode"
-                                                     src="images/brands/72-e.png" alt=""/>
-                                        </li>
-                                    </ul>
-                                    <p className="fs-4 pt-5 mt-xl-3 ">Join hundreds of teams that rely on our AI Article
-                                        Writer to create better content faster</p>
-                                    {/*<ul className="btn-list btn-list-inline pt-3 pt-xl-4">*/}
-                                    {/*    <li><a href="#" className="btn btn-primary btn-lg"><span>Start Free Trial</span></a>*/}
-                                    {/*    </li>*/}
-                                    {/*</ul>*/}
-                                </div>
-                             
-                            </div>
-                         
-                        </div>
-                     
-                    </div>
-                 
-                </section>
-             
-                <section className="section section-lg section-bottom-0">
-                    <div className="container">
-                        <div className="section-head">
-                            <div className="row justify-content-center text-center">
-                                <div className="col-lg-9 col-xl-9 px-xxl-5">
-                                    <h2 className="title h1">Increase profits and efficiency with our AI text
-                                        generator</h2>
-                                    <p className="lead">An AI text generator can help businesses increase profits by
-                                        improving their content marketing strategy. By leveraging the power of
-                                        artificial intelligence a faster rate than ever before.</p>
-                                </div>
-                            </div>
-                        </div>
-                     
-                        <div className="section-content">
-                            <div className="row gx-5 gy-6 align-items-center justify-content-lg-between">
-                                <div className="col-lg-6 col-xl-5">
-                                    <div className="block-gfx ms-lg-n4 me-lg-0 me-xl-n6 my-lg-0 m-n3 m-sm-n4">
-                                        <img className="w-100" src="images/gfx/feature/b.png" alt=""/>
-                                    </div>
-                                </div>
-                             
-                                <div className="col-lg-6 col-xl-6">
-                                    <div className="block-text">
-                                        <h2 className="title">Full-length article drafts gives you a solid base for
-                                            writing.</h2>
-                                        <p className="lead">With an AI text generator, businesses can create
-                                            high-quality content in a fraction of the time it would take to create the
-                                            same content manually. </p>
-                                        <ul className="list gy-3">
-                                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is always fresh and relevant.</span>
-                                            </li>
-                                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is guaranteed to be unique and original.</span>
-                                            </li>
-                                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is SEO-friendly and authoritative.</span>
-                                            </li>
-                                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>AI text generators can help businesses create content that is more engaging and personalized to their customers' needs</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                             
-                            </div>
-                         
-                        </div>
-                     
-                    </div>
-                 
-                </section>
-             
+                {/*<section className="section section-lg section-bottom-0">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="section-content">*/}
+                {/*            <div className="row justify-content-center text-center g-gs">*/}
+                {/*                <div className="col-xxl-10">*/}
+                {/*                    <ul className="d-flex flex-wrap justify-content-center has-gap gy-3">*/}
+                {/*                        <li className="px-3 px-xl-5">*/}
+                {/*                            <img className="h-2rem visible-on-dark-mode"*/}
+                {/*                                 src="images/brands/72-a-tone-white.png" alt=""/>*/}
+                {/*                                <img className="h-2rem visible-on-light-mode"*/}
+                {/*                                     src="images/brands/72-a.png" alt=""/>*/}
+                {/*                        </li>*/}
+                {/*                        <li className="px-3 px-xl-5">*/}
+                {/*                            <img className="h-2rem visible-on-dark-mode"*/}
+                {/*                                 src="images/brands/72-b-tone-white.png" alt=""/>*/}
+                {/*                                <img className="h-2rem visible-on-light-mode"*/}
+                {/*                                     src="images/brands/72-b.png" alt=""/>*/}
+                {/*                        </li>*/}
+                {/*                        <li className="px-3 px-xl-5">*/}
+                {/*                            <img className="h-2rem visible-on-dark-mode"*/}
+                {/*                                 src="images/brands/72-c-tone-white.png" alt=""/>*/}
+                {/*                                <img className="h-2rem visible-on-light-mode"*/}
+                {/*                                     src="images/brands/72-c.png" alt=""/>*/}
+                {/*                        </li>*/}
+                {/*                        <li className="px-3 px-xl-5">*/}
+                {/*                            <img className="h-2rem visible-on-dark-mode"*/}
+                {/*                                 src="images/brands/72-d-tone-white.png" alt=""/>*/}
+                {/*                                <img className="h-2rem visible-on-light-mode"*/}
+                {/*                                     src="images/brands/72-d.png" alt=""/>*/}
+                {/*                        </li>*/}
+                {/*                        <li className="px-3 px-xl-5">*/}
+                {/*                            <img className="h-2rem visible-on-dark-mode"*/}
+                {/*                                 src="images/brands/72-e-tone-white.png" alt=""/>*/}
+                {/*                                <img className="h-2rem visible-on-light-mode"*/}
+                {/*                                     src="images/brands/72-e.png" alt=""/>*/}
+                {/*                        </li>*/}
+                {/*                    </ul>*/}
+                {/*                    <p className="fs-4 pt-5 mt-xl-3 ">Join hundreds of teams that rely on our AI Article*/}
+                {/*                        Writer to create better content faster</p>*/}
+                {/*                    /!*<ul className="btn-list btn-list-inline pt-3 pt-xl-4">*!/*/}
+                {/*                    /!*    <li><a href="#" className="btn btn-primary btn-lg"><span>Start Free Trial</span></a>*!/*/}
+                {/*                    /!*    </li>*!/*/}
+                {/*                    /!*</ul>*!/*/}
+                {/*                </div>*/}
+                {/*             */}
+                {/*            </div>*/}
+                {/*         */}
+                {/*        </div>*/}
+                {/*     */}
+                {/*    </div>*/}
+                {/* */}
+                {/*</section>*/}
 
-             
+                {/*<section className="section section-lg section-bottom-0">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="section-head">*/}
+                {/*            <div className="row justify-content-center text-center">*/}
+                {/*                <div className="col-lg-9 col-xl-9 px-xxl-5">*/}
+                {/*                    <h2 className="title h1">Increase profits and efficiency with our AI text*/}
+                {/*                        generator</h2>*/}
+                {/*                    <p className="lead">An AI text generator can help businesses increase profits by*/}
+                {/*                        improving their content marketing strategy. By leveraging the power of*/}
+                {/*                        artificial intelligence a faster rate than ever before.</p>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*     */}
+                {/*        <div className="section-content">*/}
+                {/*            <div className="row gx-5 gy-6 align-items-center justify-content-lg-between">*/}
+                {/*                <div className="col-lg-6 col-xl-5">*/}
+                {/*                    <div className="block-gfx ms-lg-n4 me-lg-0 me-xl-n6 my-lg-0 m-n3 m-sm-n4">*/}
+                {/*                        <img className="w-100" src="images/gfx/feature/b.png" alt=""/>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*             */}
+                {/*                <div className="col-lg-6 col-xl-6">*/}
+                {/*                    <div className="block-text">*/}
+                {/*                        <h2 className="title">Full-length article drafts gives you a solid base for*/}
+                {/*                            writing.</h2>*/}
+                {/*                        <p className="lead">With an AI text generator, businesses can create*/}
+                {/*                            high-quality content in a fraction of the time it would take to create the*/}
+                {/*                            same content manually. </p>*/}
+                {/*                        <ul className="list gy-3">*/}
+                {/*                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is always fresh and relevant.</span>*/}
+                {/*                            </li>*/}
+                {/*                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is guaranteed to be unique and original.</span>*/}
+                {/*                            </li>*/}
+                {/*                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>The AI-generated text is SEO-friendly and authoritative.</span>*/}
+                {/*                            </li>*/}
+                {/*                            <li><em className="icon fs-4 ni ni-check-circle-fill text-info"></em><span>AI text generators can help businesses create content that is more engaging and personalized to their customers' needs</span>*/}
+                {/*                            </li>*/}
+                {/*                        </ul>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*             */}
+                {/*            </div>*/}
+                {/*         */}
+                {/*        </div>*/}
+                {/*     */}
+                {/*    </div>*/}
+                {/* */}
+                {/*</section>*/}
+
+
                 <section className="section section-lg section-bottom-0">
                     <div className="container">
                         <div className="section-head">
                             <div className="row justify-content-center text-center">
                                 <div className="col-lg-10 col-xl-9 col-xxl-8">
-                                    <h2 className="title h1">How will CopyGen unlock your creative potential?</h2>
-                                    <p className="lead">Copygen.ai allows you to create multiple pieces of content
-                                        quickly and efficiently, increasing your productivity and freeing up time to
-                                        focus on other important tasks.</p>
+                                    <h2 className="title h1">Design Thoughts</h2>
+                                    {/*<p className="lead">Copygen.ai allows you to create multiple pieces of content*/}
+                                    {/*    quickly and efficiently, increasing your productivity and freeing up time to*/}
+                                    {/*    focus on other important tasks.</p>*/}
                                 </div>
                             </div>
                         </div>
-                     
+
                         <div className="section-content">
                             <div className="row gy-gs gx-xxl-9">
                                 <div className="col-md-6">
@@ -314,7 +322,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -330,7 +338,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -346,7 +354,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -361,7 +369,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -376,7 +384,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -391,7 +399,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -406,7 +414,7 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                                 <div className="col-md-6">
                                     <div className="feature feature-inline">
                                         <div className="feature-media">
@@ -421,15 +429,15 @@ function Content(): ReactElement {
                                         </div>
                                     </div>
                                 </div>
-                             
+
                             </div>
-                         
+
                         </div>
-                     
+
                     </div>
-                 
+
                 </section>
-             
+
                 {/*<section className="section section-lg section-bottom-0 has-shape">*/}
                 {/*    <div className="nk-shape bg-shape-border-f ms-40p mt-8 start-50 translate-middle-x"></div>*/}
                 {/*    <div className="container">*/}
@@ -586,7 +594,7 @@ function Content(): ReactElement {
                 {/*    </div>*/}
                 {/* */}
                 {/*</section>*/}
-             
+
                 {/*<section className="section section-lg section-bottom-0">*/}
                 {/*    <div className="container">*/}
                 {/*        <div className="section-head">*/}
@@ -712,7 +720,7 @@ function Content(): ReactElement {
                 {/*    </div>*/}
                 {/* */}
                 {/*</section>*/}
-             
+
                 <section className="section section-lg has-shape">
                     <div className="nk-shape bg-shape-border-e ms-n25p mt-2 start-50 translate-middle-x"></div>
                     <div className="container">
@@ -728,7 +736,7 @@ function Content(): ReactElement {
                                 </div>
                             </div>
                         </div>
-                     
+
                         <div className="section-content">
                             <div className="row g-gs justify-content-center">
                                 <div className="col-xl-9 col-xxl-8">
@@ -748,7 +756,7 @@ function Content(): ReactElement {
                                                 </div>
                                             </div>
                                         </div>
-                                     
+
                                         <div className="accordion-item border-0 bg-gradient-light">
                                             <h2 className="accordion-header">
                                                 <button className="accordion-button collapsed" data-bs-toggle="collapse"
@@ -764,7 +772,7 @@ function Content(): ReactElement {
                                                 </div>
                                             </div>
                                         </div>
-                                     
+
                                         <div className="accordion-item border-0 bg-gradient-light">
                                             <h2 className="accordion-header">
                                                 <button className="accordion-button collapsed" data-bs-toggle="collapse"
@@ -780,7 +788,7 @@ function Content(): ReactElement {
                                                 </div>
                                             </div>
                                         </div>
-                                     
+
                                         <div className="accordion-item border-0 bg-gradient-light">
                                             <h2 className="accordion-header">
                                                 <button className="accordion-button collapsed" data-bs-toggle="collapse"
@@ -796,19 +804,19 @@ function Content(): ReactElement {
                                                 </div>
                                             </div>
                                         </div>
-                                     
+
                                     </div>
-                                 
+
                                 </div>
-                             
+
                             </div>
-                         
+
                         </div>
-                     
+
                     </div>
-                 
+
                 </section>
-             
+
             </main>
         </div>
     </div>

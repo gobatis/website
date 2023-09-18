@@ -67,7 +67,7 @@ const config = {
                 theme: {
                     customCss: [
                         require.resolve('./src/css/custom.css'),
-                        require.resolve('./src/css/style.css'),
+                        // require.resolve('./src/css/style.css'),
                     ],
                 },
                 googleAnalytics: {
