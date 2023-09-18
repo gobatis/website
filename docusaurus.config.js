@@ -141,18 +141,7 @@ const config = {
                     {to: '/metrics/index', label: 'Metrics', position: 'left'},
                     {to: '/extension', label: 'Extension', position: 'left'},
                     {to: '/', label: 'Community', position: 'left'},
-                    {
-                        label: 'Test', position: 'left', items: [
-                            {
-                                label: 'Report',
-                                to: 'https://gobatis.com/testing/report.html',
-                            },
-                            {
-                                label: 'Coverage',
-                                to: 'https://gobatis.com/testing/coverage.html',
-                            },
-                        ],
-                    },
+                    {label: 'Test', position: 'left', to: 'https://gobatis.com/testing/report.html'},
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
                         type: 'localeDropdown',
