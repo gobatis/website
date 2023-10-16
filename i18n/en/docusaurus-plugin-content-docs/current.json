@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Querying": {
+    "message": "Querying",
+    "description": "The label for category Querying in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.XML Usage": {
+    "message": "XML Usage",
+    "description": "The label for category XML Usage in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  }
+}

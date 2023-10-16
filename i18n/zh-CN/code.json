@@ -269,5 +269,62 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Getting started": {
+    "message": "快速开始"
+  },
+  "Contact Me": {
+    "message": "联系我们"
+  },
+  "Make system building": {
+    "message": "让系统构建变得"
+  },
+  "simple": {
+    "message": "简单"
+  },
+  " and ": {
+    "message": "和"
+  },
+  "efficient": {
+    "message": "高效"
+  },
+  "one comprehensively considers engineering implementation ORM library": {
+    "message": "一款面向工程实现的 ORM"
+  },
+  "Features": {
+    "message": "特性"
+  },
+  "Continuously refine the API design based on real business scenarios, aiming to provide developers with as smooth an experience as possible": {
+    "message": "基于实际业务场景，不断完善API设计，旨在为开发人员提供尽可能流畅的体验"
+  },
+  "Simple": {
+    "message": "简单"
+  },
+  "Precise": {
+    "message": "精确"
+  },
+  "Efficient": {
+    "message": "高效"
+  },
+  "How to implement assistance for your efficient development?": {
+    "message": "如何帮助你实现高效开发？"
+  },
+  "Convenient CRUD API": {
+    "message": "便捷的 CRUD API"
+  },
+  "MyBatis Dynamic XML": {
+    "message": "支持 MyBatis 动态 SQL 语法"
+  },
+  "Unified Scanning Logic": {
+    "message": "统一的结果扫描逻辑"
+  },
+  "Intuitive Query Syntax": {
+    "message": "直观的查询语句写法"
+  },
+  "Concurrency Safe": {
+    "message": "并发安全"
+  },
+  "Activity Monitoring": {
+    "message": "自带活动监听器"
   }
 }

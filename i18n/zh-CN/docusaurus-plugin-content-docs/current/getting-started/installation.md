@@ -3,7 +3,6 @@ sidebar_position: 2
 title: 快速开始
 ---
 
-<img src="/img/logo.png" style={{width: 300, display: 'block', margin:'0 auto'}} />
 
 大多数数据库操作的场景只是简单的 CRUD (Create, Read, Update, Delete) 操作，在这种情况下，我们需要简单易用的方法；
 在进行复杂的查询时，过多的参数绑定和逻辑判断是一个令人头疼的问题，在这种场景下，我们需要一套方便的模板语法来简化操作；
@@ -12,7 +11,7 @@ title: 快速开始
 综合考虑到上述需求从设计了 Gobatis。 它秉承了 Go ORM 的传统使用习惯，同时也借鉴了一些 MyBatis 的 XML Dynamic SQL 语法。
 此外，它还提供许多其他功能，使系统开发变得更简单、高效和稳固。
 
-## Feature
+## 特性
 
 * Simple, An engineering-oriented ORM
 * 简单，一款面向工程的 ORM
@@ -134,14 +133,14 @@ db.ParallelQuery(
 
 ```go
 var userProducts [] UserProduct
-db.Query(`select * from users where id in (1,2)`).Scan(baits.Loose(&userProducts, "$..Product"))
+db.Query(`select * from users where id in (1,2)`).Scan(baits.Loose(&userProducts, "$.Product"))
 
 db.AssociateQuery(batis.AssociateQuery{
     SQL: `select * from products where user_id in #{userIds}`,
     Params: map[string]any{
         "userIds": batis.Extract(usersProducts, "$.Id")
     },
-    Associate: baits.Associate(usersProducts, "user_id => $.Id", "$..Product") 
+    Associate: baits.Associate(usersProducts, "user_id <=> $.Id", "$.Product") 
 })
 
 ```

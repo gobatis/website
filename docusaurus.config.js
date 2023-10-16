@@ -40,6 +40,8 @@ const config = {
         },
     },
 
+
+
     scripts: [
         {src: "https://hm.baidu.com/hm.js?743d7079b5bb8ebc0ba8ef476ba1f615", async: true},
     ],
@@ -131,6 +133,7 @@ const config = {
                 //     alt: 'Gobatis Logo',
                 //     src: 'img/logo.png',
                 // },
+                hideOnScroll: false,
                 items: [
                     {
                         type: 'docSidebar',
@@ -140,7 +143,7 @@ const config = {
                     },
                     {to: '/metrics/index', label: 'Metrics', position: 'left'},
                     {to: '/extension', label: 'Extension', position: 'left'},
-                    {to: '/', label: 'Community', position: 'left'},
+                    // {to: '/', label: 'Community', position: 'left'},
                     {label: 'Test', position: 'left', to: 'https://gobatis.com/testing/report.html'},
                     {to: '/blog', label: 'Blog', position: 'left'},
                     {
@@ -157,45 +160,45 @@ const config = {
             footer: {
                 style: 'dark',
                 links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Tutorial',
-                                to: '/',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
-                            },
-                        ],
-                    },
+                    // {
+                    //     title: 'Docs',
+                    //     items: [
+                    //         {
+                    //             label: 'Tutorial',
+                    //             to: '/',
+                    //         },
+                    //     ],
+                    // },
+                    // {
+                    //     title: 'Community',
+                    //     items: [
+                    //         {
+                    //             label: 'Stack Overflow',
+                    //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                    //         },
+                    //         {
+                    //             label: 'Discord',
+                    //             href: 'https://discordapp.com/invite/docusaurus',
+                    //         },
+                    //         {
+                    //             label: 'Twitter',
+                    //             href: 'https://twitter.com/docusaurus',
+                    //         },
+                    //     ],
+                    // },
+                    // {
+                    //     title: 'More',
+                    //     items: [
+                    //         {
+                    //             label: 'Blog',
+                    //             to: '/blog',
+                    //         },
+                    //         {
+                    //             label: 'GitHub',
+                    //             href: 'https://github.com/facebook/docusaurus',
+                    //         },
+                    //     ],
+                    // },
                 ],
                 copyright: `Copyright © ${new Date().getFullYear()} gobatis.com. ICP证: <a style="color: #fff;" href="https://beian.miit.gov.cn/" target="_blank">黔ICP备2023011094号</a>`,
             },

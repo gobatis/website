@@ -30,15 +30,15 @@ type User struct {
 	db.Query().LooseScan(batis.LooseDest(&users, "$..Posts","$..Orders")).Error
 
     db.Query(`select * from posts where user_id in #{userIds}`,
-		batis.Param("userIds", userIds)).Link(&users, "user_id => $..Id", "$..Posts").Error
+		batis.Param("userIds", userIds)).Link(&users, "user_id <=> $.Id", "$..Posts").Error
 
 	postIds := mapping.Map(users, func())
 
 	db.Query(`select * from tags where post_id in #{postIds}`,
 		batis.Param("postIds", postIds)).
-		Link(&users, "user_id => $..Posts[*].Id", "$..Post[*].Tags").Error
+		Link(&users, "user_id <=> $.Posts.Id", "$.Post.Tags").Error
 
     db.Query(`select * from orders where user_id in #{userIds}`,
 		batis.Param("userIds", userIds)).
-		Link(&users, "user_id => $..Id", "$..Orders").Error
+		Link(&users, "user_id <=> $Id", "$.Orders").Error
 ```

@@ -3,26 +3,179 @@
  * and scoped locally.
  */
 
-.heroBanner {
-    padding: 4rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-    .heroBanner {
-        padding: 2rem;
-    }
-}
-
-.buttons {
+/* index style */
+.page {
+    outline: none;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    color: var(--gbs-color);
+}
+
+
+/* header start*/
+
+.header {
+    width: 1240px;
+    margin: 150px auto 0;
+    display: flex;
+}
+
+.brandName {
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+    font-size: 30px;
+}
+
+.title {
+    font-family: "Spline Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 64px;
+}
+
+
+.textGradient {
+    background: linear-gradient(91deg, rgb(108, 91, 243) 37.79%, rgb(164, 37, 254) 56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
 }
 
 .logo {
-    width: 120px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 120px;
+    bottom: 35px;
 }
 
+.btns {
+    display: flex;
+    gap: 16px;
+}
+
+.primaryBtn {
+    background: var(--ifm-color-primary) !important;
+    color: #fff !important;
+}
+
+.startBtn {
+    display: block;
+    padding: 10px 0;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    top: 5px;
+    font-weight: bold;
+    color: var(--ifm-color-primary);
+}
+
+/* header end */
+
+
+/* features start */
+.features {
+    width: 1240px;
+    margin: 150px auto 0;
+    position: relative;
+}
+
+
+.featureHead {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureHead h2 {
+    font-size: 36px;
+}
+
+.featureHead p {
+    width: 720px;
+}
+
+.featureContent {
+    display: flex;
+    gap: 16px;
+}
+
+.feature {
+    position: relative;
+    background: var(--gbs-feature-bg);
+    height: 140px;
+    line-height: 24px;
+    width: 100%;
+    padding: 20px 12px;
+    border-radius: 5px;
+}
+
+.feature img {
+    position: absolute;
+    right: 1px;
+    top: 16px;
+}
+
+.feature h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature p {
+    color: var(--gbs-color);
+    font-size: 15px;
+    font-weight: 400;
+    width: 280px;
+}
+
+/* features end */
+
+
+/* help start */
+.help {
+    width: 1180px;
+    margin: 150px auto 0;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.helpHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.helpHead h2 {
+    width: 650px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.helpList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.helpList div h4 {
+    font-family: "Spline Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 20px
+}
+
+.helpList div p {
+    color: rgb(139, 151, 166);
+    font-family: "Spline Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 24px;
+}
+
+/* help end */

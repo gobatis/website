@@ -1,0 +1,156 @@
+
+.nk-shape {
+    position: absolute;
+    z-index: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.bg-shape-blur-a {
+    height: 1168px;
+    width: 898px;
+    background-image: url("./images/shape/blur-a.png");
+}
+.bg-shape-blur-b {
+    height: 762px;
+    width: 586px;
+    background-image: url("./images/shape/blur-b.png");
+}
+.bg-shape-blur-c {
+    height: 1036px;
+    width: 1036px;
+    background-image: url("./images/shape/blur-c.png");
+}
+
+.bg-shape-blur-d {
+    height: 1160px;
+    width: 1160px;
+    background-image: url("./images/shape/blur-d.png");
+}
+
+.bg-shape-blur-e {
+    height: 1100px;
+    width: 1100px;
+    background-image: url("./images/shape/blur-e.png");
+}
+.bg-shape-blur-f {
+    height: 1171px;
+    width: 1170px;
+    background-image: url("./images/shape/blur-f.png");
+}
+.bg-shape-blur-g {
+    height: 1348px;
+    width: 1347px;
+    background-image: url("./images/shape/blur-g.png");
+}
+.bg-shape-blur-h {
+    height: 1081px;
+    width: 1081px;
+    background-image: url("./images/shape/blur-h.png");
+}
+.bg-shape-blur-i {
+    height: 1171px;
+    width: 1170px;
+    background-image: url("./images/shape/blur-i.png");
+}
+.bg-shape-blur-j {
+    height: 1220px;
+    width: 1220px;
+    background-image: url("./images/shape/blur-j.png");
+}
+.bg-shape-blur-k {
+    height: 974px;
+    width: 973px;
+    background-image: url("./images/shape/blur-k.png");
+}
+.bg-shape-blur-l {
+    height: 1086px;
+    width: 1087px;
+    background-image: url("./images/shape/blur-l.png");
+}
+.bg-shape-blur-m {
+    height: 1160px;
+    width: 1160px;
+    background-image: url("./images/shape/blur-m.png");
+}
+.bg-shape-blur-n {
+    height: 871px;
+    width: 751px;
+    background-image: url("./images/shape/blur-n.png");
+}
+.bg-shape-blur-o {
+    height: 1099px;
+    width: 1017px;
+    background-image: url("./images/shape/blur-o.png");
+}
+.bg-shape-blur-p {
+    height: 1101px;
+    width: 1100px;
+    background-image: url("./images/shape/blur-p.png");
+}
+
+.bg-shape-blur-q {
+    height: 866px;
+    width: 928px;
+    background-image: url("./images/shape/blur-q.png");
+    top: -230px;
+    left: 850px;
+}
+
+.bg-shape-blur-r {
+    height: 883px;
+    width: 883px;
+    background-image: url("./images/shape/blur-r.png");
+    left: 520px;
+    top: -150px
+}
+
+.bg-shape-blur-s {
+    height: 806px;
+    width: 1306px;
+    background-image: url("./images/shape/blur-s.png");
+}
+.bg-shape-border-a {
+    height: 481px;
+    width: 572px;
+    background-image: url("./images/shape/border-a.png");
+}
+.bg-shape-border-b {
+    height: 237px;
+    width: 237px;
+    background-image: url("./images/shape/border-b.png");
+}
+.bg-shape-border-c {
+    height: 949px;
+    width: 949px;
+    background-image: url("./images/shape/border-c.png");
+}
+.bg-shape-border-d {
+    height: 237px;
+    width: 237px;
+    background-image: url("./images/shape/border-d.png");
+    left: 501px;
+    bottom: 110px;
+}
+.bg-shape-border-e {
+    height: 175px;
+    width: 175px;
+    background-image: url("./images/shape/border-e.png");
+}
+.bg-shape-border-f {
+    height: 256px;
+    width: 257px;
+    background-image: url("./images/shape/border-f.png");
+}
+.bg-shape-wormhole-a {
+    height: 990px;
+    width: 811px;
+    background-image: url("./images/wormhole-a.png");
+
+    bottom: -150px;
+    left: 210px;
+}
+
+
