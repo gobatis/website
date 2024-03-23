@@ -141,11 +141,11 @@ const config = {
                         position: 'left',
                         label: 'Documentation'
                     },
-                    {to: '/metrics/index', label: 'Metrics', position: 'left'},
-                    {to: '/extension', label: 'Extension', position: 'left'},
+                    // {to: '/metrics/index', label: 'Metrics', position: 'left'},
+                    // {to: '/extension', label: 'Extension', position: 'left'},
                     // {to: '/', label: 'Community', position: 'left'},
                     {label: 'Test', position: 'left', to: 'https://gobatis.com/testing/report.html'},
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    // {to: '/blog', label: 'Blog', position: 'left'},
                     {
                         type: 'localeDropdown',
                         position: 'right',

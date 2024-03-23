@@ -272,5 +272,59 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Make system building": {
+    "message": "Make system building"
+  },
+  "simple": {
+    "message": "simple"
+  },
+  " and ": {
+    "message": " and "
+  },
+  "efficient": {
+    "message": "efficient"
+  },
+  "one comprehensively considers engineering implementation ORM library": {
+    "message": "one comprehensively considers engineering implementation ORM library"
+  },
+  "Contact Me": {
+    "message": "Contact Me"
+  },
+  "Features": {
+    "message": "Features"
+  },
+  "Continuously refine the API design based on real business scenarios, aiming to provide developers with as smooth an experience as possible": {
+    "message": "Continuously refine the API design based on real business scenarios, aiming to provide developers with as smooth an experience as possible"
+  },
+  "Simple": {
+    "message": "Simple"
+  },
+  "Precise": {
+    "message": "Precise"
+  },
+  "Efficient": {
+    "message": "Efficient"
+  },
+  "How to implement assistance for your efficient development?": {
+    "message": "How to implement assistance for your efficient development?"
+  },
+  "Convenient CRUD API": {
+    "message": "Convenient CRUD API"
+  },
+  "MyBatis Dynamic XML": {
+    "message": "MyBatis Dynamic XML"
+  },
+  "Unified Scanning Logic": {
+    "message": "Unified Scanning Logic"
+  },
+  "Intuitive Query Syntax": {
+    "message": "Intuitive Query Syntax"
+  },
+  "Concurrency Safe": {
+    "message": "Concurrency Safe"
+  },
+  "Activity Monitoring": {
+    "message": "Activity Monitoring"
   }
 }

@@ -81,6 +81,9 @@ function Content(): ReactElement {
             <img className={styles.logo} src="img/logo.png" alt=""/>
         </div>
 
+        <p style={{textAlign: 'center', color: '#ff3a00', fontSize: 24}}>Do not use in the prod environment during
+            development</p>
+
         <section className={styles.features}>
             <div className="nk-shape bg-shape-border-d"></div>
             <div className={styles.featureHead}>
@@ -166,7 +169,7 @@ function Content(): ReactElement {
                         other important tasks.</p>
                 </div>
             </div>
-            <div className="nk-shape bg-shape-wormhole-a"></div>
+            {/*<div className="nk-shape bg-shape-wormhole-a"></div>*/}
         </section>
     </div>
 }
