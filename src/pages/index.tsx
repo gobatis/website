@@ -9,7 +9,7 @@ import { useLocation } from "@docusaurus/router";
 import '@site/src/css/index.css';
 import { useMount } from "ahooks";
 import Translate, { translate } from "@docusaurus/Translate";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home(): ReactElement {
